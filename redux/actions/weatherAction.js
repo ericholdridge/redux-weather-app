@@ -5,7 +5,7 @@ export const FETCH_WEATHER = "FETCH_WEATHER";
 const API_KEY = "6d2ab6b2662647f890605500211901";
 
 export const weatherAction = (city) => {
-  return async (dispatch, getState) => {
+  return async (dispatch) => {
     const response = await Axios.get(
       `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}`
     );

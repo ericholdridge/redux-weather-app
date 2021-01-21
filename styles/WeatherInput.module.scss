@@ -1,0 +1,23 @@
+.weatherInput {
+  form {
+    input {
+      height: 35px;
+      width: 400px;
+    }
+  }
+  .wrapper {
+    padding: 10px 0 0 0;
+    .flex {
+      display: flex;
+      align-items: center;
+      div {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        &:first-child {
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+}
